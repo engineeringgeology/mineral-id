@@ -1,5 +1,5 @@
 /* Offline cache: the whole app is stored on the phone on first visit */
-const V = 'mineralid-v0.10.1';
+const V = 'mineralid-v0.10.2';
 const FILES = ['./', 'index.html', 'manifest.webmanifest', 'css/app.css', 'lib/leaflet.css',
   'lib/jspdf.umd.min.js', 'lib/xlsx.mini.min.js', 'lib/leaflet.js', 'js/font.js',
   'js/minerals.js', 'js/i18n-names.js', 'js/i18n-terms.js', 'js/i18n.js', 'js/db.js', 'js/art.js', 'js/identify.js', 'js/photo.js', 'js/model.js', 'js/quiz.js', 'js/export.js', 'js/license.js', 'js/app.js',
