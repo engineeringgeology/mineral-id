@@ -9,7 +9,7 @@ window.MI = window.MI || {};
   const PUBLIC_JWK = { kty: 'EC', crv: 'P-256', x: 'U30rOp6dBy40NovXfSu0JbC4OKHH1VdhvdOHSf3SlWs', y: 'UukT2dyJGsJWK-EM6Oigx-czC3mJbB7jUwJFPPBohss' };
   const APP = 'mineral';
   const DEMO = { ident: 5, samples: 5 }; // free version: 5 identifications, 5 collection samples, no export
-  const BUY_URL = ''; // Payhip product link, filled in when the product is created
+  const BUY_URL = 'https://payhip.com/b/spVnY'; // Payhip product link, filled in when the product is created
 
   const b64u = { dec: s => Uint8Array.from(atob(s.replace(/-/g, '+').replace(/_/g, '/') + '==='.slice((s.length + 3) % 4)), c => c.charCodeAt(0)) };
 
