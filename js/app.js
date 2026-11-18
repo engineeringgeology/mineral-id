@@ -1,7 +1,7 @@
 /* Mineral ID — UI */
 'use strict';
 (function () {
-  MI.VERSION = '0.10.1';
+  MI.VERSION = '0.10.2';
   const $ = (s, r = document) => r.querySelector(s);
   const $$ = (s, r = document) => [...r.querySelectorAll(s)];
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
